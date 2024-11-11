@@ -1,0 +1,13 @@
+train: C:/Users/Ankit Sangwan/OneDrive/Desktop/study material/College Study Material/Coding/Python Project/Python-OCR-Project/dataset/train/images
+val: C:/Users/Ankit Sangwan/OneDrive/Desktop/study material/College Study Material/Coding/Python Project/Python-OCR-Project/dataset/valid/images
+test: C:/Users/Ankit Sangwan/OneDrive/Desktop/study material/College Study Material/Coding/Python Project/Python-OCR-Project/dataset/test/images
+
+nc: 8
+names: ['Number Plate', 'auto', 'bike', 'car', 'object', 'person', 'scootor', 'truck']
+
+roboflow:
+  workspace: vikas-ykiwy
+  project: object-detection-bounding-box-js5eg
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vikas-ykiwy/object-detection-bounding-box-js5eg/dataset/3
