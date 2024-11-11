@@ -1,0 +1,37 @@
+# Python Bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environment folder (if using one)
+easyocr_env/
+
+# Dataset files (to avoid uploading large datasets to git)
+dataset/
+sample.mp4
+test.py
+
+# YOLOv8 model weights (as they can be large files)
+runs/
+data/
+*.pt
+
+# Jupyter Notebook checkpoints (if using Jupyter notebooks)
+.ipynb_checkpoints/
+
+# Miscellaneous IDE files
+.vscode/
+*.swp
+
+# Log files
+*.log
+
+# Backup and temporary files
+*.bak
+*.swp             # Swap files created by text editors (e.g., vim)
+
+# System-specific files (Windows)
+Thumbs.db          # Windows system files
+
+# Environment files
+*.env
